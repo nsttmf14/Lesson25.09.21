@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson25.09.21", "Lesson25.09.21\Lesson25.09.21.csproj", "{4EFD783B-E26D-40E8-AB01-DAD71321A011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework", "homework\homework.csproj", "{C779D0C1-DB17-4FE4-9E2D-7511F095BB4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labs4", "Labs4\Labs4.csproj", "{32B43A1E-4340-4140-A09C-0F43C779F30F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EFD783B-E26D-40E8-AB01-DAD71321A011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFD783B-E26D-40E8-AB01-DAD71321A011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFD783B-E26D-40E8-AB01-DAD71321A011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFD783B-E26D-40E8-AB01-DAD71321A011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C779D0C1-DB17-4FE4-9E2D-7511F095BB4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C779D0C1-DB17-4FE4-9E2D-7511F095BB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C779D0C1-DB17-4FE4-9E2D-7511F095BB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C779D0C1-DB17-4FE4-9E2D-7511F095BB4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B43A1E-4340-4140-A09C-0F43C779F30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B43A1E-4340-4140-A09C-0F43C779F30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B43A1E-4340-4140-A09C-0F43C779F30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B43A1E-4340-4140-A09C-0F43C779F30F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {292C1AA1-50EA-4EE8-AE3A-92110DB874DC}
+	EndGlobalSection
+EndGlobal
