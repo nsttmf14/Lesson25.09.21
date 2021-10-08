@@ -92,8 +92,61 @@ namespace homework
             }
             Console.WriteLine($"Искомая сумма равна {sum}");
 
+            Console.WriteLine("task2.2");
+            int stage = 100;
+            double distance = 0;
+            int summ = 0;
+            double temp = 1;
+            double way = 1;
+            bool flag = true;
+            for (int i = 0; i < stage; i++)
+            {
+                if (flag)
+                {
+                    distance += way;
+                    temp++;
+                    way = (double)1 / temp;
+                    flag = false;
+                }
+                else
+                {
+                    distance -= way;
+                    temp++;
+                    way = (double)1 / temp;
+                    flag = true;
+                }
+
+            }
+            Console.WriteLine("В данный момент муж находится на расстоянии: " + distance + " \nА общий путь составляет: " + summ);
+
+            Console.WriteLine("task2.3");
+            int[] tempJanuary = new int[31];
+            int[] tempMarch = new int[30];
+            Random r = new Random();
+            summ = 0;
+            for (int i = 0; i < tempJanuary.Length; i++)
+            {
+                tempJanuary[i] = r.Next(0, 100);
+            }
+            for (int i = 0; i < tempJanuary.Length; i++)
+            {
+                summ += tempJanuary[i];
+            }
+            Console.WriteLine("Среднее количество осадков в Январе = " + summ / (tempJanuary.Length));
+
+            summ = 0;
+            for (int i = 0; i < tempMarch.Length; i++)
+            {
+                tempMarch[i] = r.Next(0, 100);
+            }
+            for (int i = 0; i < tempMarch.Length; i++)
+            {
+                summ += tempMarch[i];
+            }
+            Console.WriteLine("Средняя количество осадков в Марте = " + summ / (tempMarch.Length));
+
             Console.WriteLine("task3.1");//последовательность дана
-            x = 1; y = 1; double temp;
+            x = 1; y = 1;
             while (Math.Abs(x / y - (x + y) / x) > 0.001)
             {
                 temp = x;
